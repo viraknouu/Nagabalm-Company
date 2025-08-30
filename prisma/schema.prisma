@@ -1,0 +1,139 @@
+// // prisma/schema.prisma
+
+// generator client {
+//   provider = "prisma-client-js"
+// }
+
+// datasource db {
+//   provider = "mongodb"
+//   url      = env("DATABASE_URL")
+// }
+
+// type CategoryTranslations {
+//   lang String
+//   name String
+// }
+
+// type ProductTranslations {
+//   lang        String
+//   name        String
+//   description String
+// }
+
+// model User {
+//   id       String @id @default(auto()) @map("_id") @db.ObjectId
+//   email    String
+//   name     String
+//   password String
+//   role     String
+// }
+
+// model Category {
+// id String @id @default(auto()) @map("_id") @db.ObjectId
+// slug String
+// translations Json // { en: { name }, km: { name } }
+// products Product[] // relation
+// }
+
+// model Product {
+// id String @id @default(auto()) @map("_id") @db.ObjectId
+// slug String
+// image String
+// price Float
+// isTopSell Boolean
+// translations Json // new shape: { en: {...}, km: {...} }
+// categoryId String @db.ObjectId
+// category Category @relation(fields: [categoryId], references: [id])
+// }
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String    @id @default(auto()) @map("_id") @db.ObjectId
+  email        String    @unique
+  name         String
+  password     String
+  role         String
+  refreshToken String?
+
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+model Category {
+  id           String     @id @default(auto()) @map("_id") @db.ObjectId
+  slug         String     @unique
+  translations Json       // { en: { name }, km: { name } }
+  products     Product[]  // relation
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Product {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  slug         String   @unique
+  images       String[]
+  price        Float
+  isTopSell    Boolean
+  translations Json     // { en: { name, description }, km: { name, description } }
+
+  categoryId   String   @db.ObjectId
+  category     Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model LocationCategory {
+  id           String     @id @default(auto()) @map("_id") @db.ObjectId
+  slug         String     @unique
+  translations Json       // { en: { name }, km: { name } }
+  locations    Location[] // relation
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Location {
+  id           String           @id @default(auto()) @map("_id") @db.ObjectId
+  slug         String           @unique
+  logo         String           // Image URL for the logo
+  translations Json             // { en: { name }, km: { name } }
+
+  categoryId   String           @db.ObjectId
+  category     LocationCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model TeamCategory {
+  id           String        @id @default(auto()) @map("_id") @db.ObjectId
+  slug         String        @unique
+  translations Json          // { en: { name }, km: { name } }
+  teamMembers  TeamMember[]  // relation
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model TeamMember {
+  id           String       @id @default(auto()) @map("_id") @db.ObjectId
+  slug         String       @unique
+  image        String       // Image URL for the team member photo
+  translations Json         // { en: { name, role }, km: { name, role } }
+
+  categoryId   String       @db.ObjectId
+  category     TeamCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

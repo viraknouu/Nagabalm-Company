@@ -1,0 +1,85 @@
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+const DiscoverSolutionSection = () => (
+  <section
+    className="w-full bg-[#F5F5F5] py-20 flex flex-col items-center relative overflow-hidden"
+    style={{
+      backgroundImage: "url('/images/about-grid/Mainposter.png')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+    }}
+  >
+    <div className="w-full max-w-7xl flex flex-col lg:flex-row items-start justify-between px-4 gap-12">
+      <div className="flex-1 flex flex-col gap-8">
+        <h2 className="text-[#FF4500] text-4xl sm:text-5xl font-extrabold leading-tight">
+          DISCOVER THE PERFECT<br />
+          SOLUTION FOR YOUR NEEDS.
+        </h2>
+        <div className="flex flex-col gap-12">
+          {/* Active Lifestyles Card */}
+          <div className="bg-[#00B4D8] card p-6 text-white w-full max-w-xl flex flex-row items-center relative h-56 overflow-visible rounded-xl">
+            <div className="flex-1 pr-32 pl-4">
+              <h3 className="font-extrabold text-3xl mb-3">FOR THE ACTIVE<br />LIFESTYLES</h3>
+              <p className="text-base mb-4 opacity-90">
+                Perform, recover, and stay in motion.<br />
+                Whether you're an athlete, fitness enthusiast, or<br />
+                someone who loves staying active.
+              </p>
+            </div>
+            <div className="absolute right-[-10px] bottom-0 top-auto">
+              <div className="absolute right-16 top-10 z-10">
+                <Link href="/products">
+                  <button className="bg-[#FF4500] text-white font-bold py-2 px-6 rounded-full text-sm flex items-center gap-2 hover:bg-[#ff5722] transition-colors">
+                    EXPLORE PRODUCTS
+                    <span className="text-xl">→</span>
+                  </button>
+                </Link>
+              </div>
+              <Image 
+                src="/images/History of CoCo Khmer 3/ActiveLifeStyle@4x.png"
+                alt="Active Lifestyle"
+                width={300}
+                height={300}
+                className="object-contain"
+              />
+            </div>
+          </div>
+
+          {/* Everyday Relief Card */}
+          <div className="bg-[#00A67E] card p-6 text-white w-full max-w-xl flex flex-row items-center relative h-56 overflow-visible rounded-xl">
+            <div className="flex-1 pr-32 pl-4">
+              <h3 className="font-extrabold text-3xl mb-3">FOR THE EVERYDAY<br />RELIEF</h3>
+              <p className="text-base mb-4 opacity-90">
+                Soothe tension. Ease the day. Feel good again.<br />
+                From desk strain to daily discomfort, choose<br />
+                relief made for life's routines.
+              </p>
+            </div>
+            <div className="absolute right-[-10px] bottom-0 top-auto">
+              <div className="absolute right-16 top-10 z-10">
+                <Link href="/products">
+                  <button className="bg-[#FF4500] text-white font-bold py-2 px-6 rounded-full text-sm flex items-center gap-2 hover:bg-[#ff5722] transition-colors">
+                    EXPLORE PRODUCTS
+                    <span className="text-xl">→</span>
+                  </button>
+                </Link>
+              </div>
+              <Image 
+                src="/images/History of CoCo Khmer 3/DailyLifeStyle@4x.png"
+                alt="Daily Lifestyle"
+                width={300}
+                height={300}
+                className="object-contain"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+);
+
+export default DiscoverSolutionSection; 

@@ -1,0 +1,513 @@
+{
+  "navigation": {
+    "home": "HOME",
+    "products": "PRODUCTS",
+    "about": "ABOUT",
+    "faq": "FAQ",
+    "contact": "CONTACT",
+    "whereToFind": "WHERE TO FIND",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "SAY\nGOODBYE\nTO PAIN",
+    "description": "Naga Balm - we blend tradition with modern innovation, delivering clean pain relief solutions to soothe, relieve, and heal.",
+    "findRelief": "FIND YOUR RELIEF",
+    "learnMore": "LEARN MORE"
+  },
+  "availableAt": {
+    "title": "AVAILABLE AT",
+    "subtitle": "Find Naga Balm at these trusted retailers across Cambodia",
+    "findUsAt": "FIND US AT"
+  },
+  "featured": {
+    "title": "FEATURED",
+    "viewAll": "VIEW ALL",
+    "learnMore": "LEARN MORE",
+    "products": {
+      "nagaBalmGo": {
+        "label": "ACTIVE LIFESTYLE",
+        "name": "NAGA BALM GO",
+        "description": "NATURALLY ENERGIZING. Delivers relief with fast cooling and warming sensations. Like aspirin for your skin, it numbs the pain before delivering penetrating heat to the affected area.",
+        "weight": "6g/20g"
+      },
+      "inhalerRollOn": {
+        "label": "NEW",
+        "name": "INHALER & ROLL-ON",
+        "description": "Smell it for relief from nausea, congestion, headaches and stress. Roll it to target headaches and tension points. 2-in-1 solution.",
+        "weight": "2mL"
+      },
+      "mosquitoRepellent": {
+        "name": "PICARIDIN MOSQUITO REPELLENT",
+        "description": "EMBRACE LIFE, REPEL MOSQUITOES. Cambodia's first Picaridin Mosquito Repellent - an effective, DEET-free solution for the family. Because like it or not, mosquitoes are a pain.",
+        "weight": "120mL"
+      },
+      "nagaBalmFire": {
+        "name": "NAGA BALM FIRE",
+        "description": "NATURALLY FIERY. Delivers deeper heat for deeper relief of muscle aches and fatigues, pulled muscles, stiff and chronic joint or nerve pain. Smooth but long-lasting!",
+        "weight": "6g/20g"
+      },
+      "extremeLiniment": {
+        "name": "EXTREME LINIMENT OIL",
+        "description": "EXTREME RECOVERY. The ultimate heat provider - the Extreme Liniment Oil lives up to its name, delivering maximum, penetrating warmth for the more persistent chronic muscle and joint pain. A perfect companion for any recovery and injury rehabilitation process.",
+        "weight": "65mL/125mL"
+      }
+    }
+  },
+  "modernizing": {
+    "message": "WE ARE MODERNIZING THE TIME-HONORED REMEDY OF THE PRENG KOLA, PRESERVING ITS RICH CAMBODIAN HERITAGE WHILE EVOLVING IT FOR THE 21ST CENTURY."
+  },
+  "whyNagaBalm": {
+    "title": "WHY NAGA BALM",
+    "p": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diamnonummy nibh euismod",
+    "button": "Learn More",
+    "about": "Learn More",
+    "cards": {
+      "petroleumFree": {
+        "title": "PETROLEUM-FREE, SAFE, AND EFFECTIVE",
+        "subtitle": "Quality Without Compromise",
+        "description": "Our products are formulated to deliver relief without petrochemicals, harsh chemicals, or filler additives. Naga Balm provides effective and safe pain relief. Every ingredient matters."
+      },
+      "wideRange": {
+        "title": "WIDE PRODUCT RANGE",
+        "subtitle": "Versatile Solutions",
+        "description": "Naga Balm offers options for athletes, professionals, seniors, family, and everyday users - different formats and use cases, same effectiveness."
+      },
+      "handcrafted": {
+        "title": "Handcrafted Quality",
+        "subtitle": "Boutique excellence",
+        "description": "Operating from our cosmetics-grade facility in Phnom Penh, Cambodia, we are a specialized handcraft manufacturer—boutique yet driven."
+      }
+    }
+  },
+  "about": {
+    "title": "About Naga Balm",
+    "subtitle": "Ancient Wisdom, Modern Healing",
+    "description": "Rooted in centuries-old Khmer healing traditions, Naga Balm represents the perfect fusion of ancient wisdom and modern innovation. Our premium balms are handcrafted in Cambodia using time-honored recipes passed down through generations.",
+    "mission": "Our Mission",
+    "missionText": "To bring traditional Cambodian wellness practices to the modern world, providing natural, effective relief for everyday aches and pains.",
+    "values": "Our Values",
+    "tradition": "Tradition",
+    "traditionText": "Honoring ancient Khmer healing practices",
+    "quality": "Quality",
+    "qualityText": "Premium ingredients, carefully sourced",
+    "innovation": "Innovation",
+    "innovationText": "Modern techniques, traditional wisdom",
+    "hero": {
+      "title": "CAMBODIA'S TOPICAL \nPAIN RELIEF.",
+      "description": "Lovingly handcrafted at scale in Cambodia, Naga Balm is a line of all natural, effective, and safe pain relievers expertly formulated with International manufacturing standards to deliver a smooth, non-greasy, non-irritating sensation to you and your loved ones.",
+      "continueToStory": "Continue to Our Story"
+    },
+    "ourStory": {
+      "title": "OUR STORY",
+      "description": "Naga Balm began in 2013, born from the observation that while the traditional Preng Kola ointment is widely used, there was no petroleum-free, natural alternative available. People deserved a choice—one that combined the wisdom of tradition with modern, cleaner ingredients."
+    },
+    "valuesVisionMission": {
+      "ourValues": {
+        "title": "OUR VALUES",
+        "description": "Naga Balm began in 2013, born from the observation that while the traditional Preng Kola ointment is widely used, there was no petroleum-free, natural alternative available."
+      },
+      "vision": {
+        "title": "VISION",
+        "description": "To become Cambodia's Topical Pain Relief, globally recognized for excellence, boldness, and heritage."
+      },
+      "mission": {
+        "title": "MISSION",
+        "description": "To make really good products, and to scale without compromising or cutting corners."
+      }
+    },
+    "ourJourney": {
+      "title": "OUR JOURNEY",
+      "subtitle": "Coco Khmer, maker of Naga Balm, was founded in Phnom Penh as Cambodia's first commercial producer of virgin coconut oil. From the beginning, we’ve been a triple bottom line social enterprise with a clear mission: create ethical employment, protect the planet, and build a future through natural, coconut-based wellness.",
+      "steps": {
+        "2013": {
+          "displayYear": "2013",
+          "title": "The Beginning",
+          "description": "People deserved a choice—one that combined the wisdom of tradition with modern, cleaner ingredients. The first batch of cold-pressed virgin coconut oil was extracted."
+        },
+        "2014": {
+           "displayYear": "2014",
+          "title": "The Birth of Naga Balm",
+          "description": "Just six months after opening our doors, Naga Balm was born. Inspired by Cambodia's traditional herbal medicine and powered by virgin coconut oil, our first balm was handcrafted to relieve pain naturally—free from petroleum and full of purpose."
+        },
+        "2015": {
+           "displayYear": "2015",
+          "title": "From Phnom Penh to the World",
+          "description": "Thanks to word-of-mouth, travelers, and passionate supporters, Naga Balm journeyed far beyond Cambodia. By 2019, it had reached hands and hearts across Singapore, Canada, the United States, Australia, Europe, and Greater Asia—earning a loyal following through its clean ingredients and powerful results."
+        },
+        "2020": {
+           "displayYear": "2020",
+          "title": "The Pandemic Pause",
+          "description": "When COVID-19 hit, the global slowdown and Cambodia's lockdowns forced Coco Khmer into survival mode. Production halted. The team dispersed. For a time, it was the founder, a few faithful orders, and the enduring idea that this work still mattered."
+        },
+        "2023": {
+           "displayYear": "2023",
+          "title": "The Rebirth",
+          "description": "Out of crisis came clarity. In early 2023, Naga Balm was reborn—refreshed in brand, reimagined in design, and re-anchored in quality. We relocated to a cosmetics-grade production facility fully aligned with GMP and ISO standards. A new era had begun."
+        },
+        "2024": {
+           "displayYear": "2024",
+          "title": "Growing Strong",
+          "description": "Naga Balm now thrives across 250+ retail locations in Cambodia and boasts a growing portfolio of 19 SKUs (11 unique products) in topical wellness. What began as a single balm has grown into a full natural care line—from mosquito repellent and inhaler sticks to muscle rubs and modern liniments."
+        },
+        "BEYOND": {
+          "displayYear": "BEYOND",
+          "title": "A Global Vision",
+          "description": "In a world dominated by petroleum-based pain relief, Naga Balm offers something better: a safe, effective, and petroleum-free choice. Our vision is global—but our roots remain proudly Cambodian. Wherever pain travels, Naga Balm is there."
+        },
+        "seeLess": "See less",
+        "seeMore": "See more"
+      }
+    },
+    "theSpirit": {
+      "title": "THE SPIRIT",
+      "description1": "Naga Balm was created to give people access to all-natural, effective, and powerful pain relief. Expertly formulated to meet professional standards, each balm delivers a smooth, non-greasy, and non-irritating sensation—perfect for you and your loved ones.",
+      "description2": "It's your daily essential, your trusted first aid, and your go-to Cambodian remedy for life's everyday aches and pains."
+    },
+    "teams": {
+      "title": "TEAM",
+      "subtitle": "Meet the dedicated hands behind every Naga Balm product - a community of skilled artisans and passionate professionals.",
+      "tabs": {
+        "ourTeam": "Office Team",
+        "facilityTeam": "Facility Team"
+      }
+    },
+    "community": {
+      "title": "COMMUNITY",
+      "subtitle": "Capturing moments of impact, connection, and celebration within the Naga Balm community."
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Traditional Healing, Modern Solutions",
+    "heroTitle": "DISCOVER THE PERFECT\nSOLUTION FOR YOUR NEEDS.",
+    "heroSubtitle": "Discover our carefully crafted solutions designed for every lifestyle and wellness need.",
+    "activeLifestyles": {
+      "title": "FOR ACTIVE LIFESTYLES",
+      "subtitle": "Push harder. Recover faster.\nStay in motion.",
+      "description": "Whether you're an athlete or just always on the move, find relief that keeps up.",
+      "viewProducts": "VIEW PRODUCTS"
+    },
+    "everydayReliefs": {
+      "title": "FOR EVERYDAY RELIEF",
+      "descriptions": "Soothe tension. Ease the day.\nFeel good again.\n From desk strain to daily discomfort,\nchoose relief made for life's routines.",
+      "viewProducts": "VIEW PRODUCTS"
+    },
+    "craftedCare": {
+      "title": "WE CRAFT WITH CARE \n EVERY INGREDIENT USED IS CAREFULLY SELECTED.\nA CARE IN MIND.",
+      "seeIngredients": "SEE INGREDIENTS"
+    },
+    "preview": {
+      "loading": "Loading products...",
+      "error": "Failed to load products.",
+      "noProducts": "No products found in this category.",
+      "navigation": {
+        "backToProducts": "← Back to Products",
+        "goToPrevious": "Go to previous {category}",
+        "goToNext": "Go to next {category}"
+      },
+      "hero": {
+        "productsTitle": "Our {category} Products",
+        "subtitle": "Discover powerful formulas designed for {category} relief and wellness."
+      },
+      "modal": {
+        "learnMore": "Learn More",
+        "activeIngredient": "Active Ingredient",
+        "usage": "Recommended For"
+      },
+      "categories": {
+        "active": "Active",
+        "everyday": "Everyday",
+        "balms": "Balms"
+      }
+    },
+    "grid": {
+      "title": "Browse Products",
+      "searchPlaceholder": "Search products...",
+      "search": {
+        "placeholder": "Search products...",
+        "clear": "Clear search"
+      },
+      "filters": {
+        "allProducts": "ALL PRODUCTS",
+        "activeLifestyle": "ACTIVE LIFESTYLE",
+        "everyday": "EVERYDAY"
+      },
+      "results": {
+        "showing": "Showing",
+        "resultsFor": "results for",
+        "products": "products",
+        "in": "in"
+      },
+      "states": {
+        "loadingProducts": "Loading products...",
+        "loadingCategories": "Loading categories...",
+        "noProductsFound": "No products found",
+        "tryAdjusting": "Try adjusting your search or filter criteria"
+      },
+      "actions": {
+        "learnMore": "LEARN MORE",
+        "closeModal": "Close modal",
+        "clear": "Clear"
+      },
+      "modal": {
+        "activeIngredient": "ACTIVE INGREDIENT",
+        "usage": "USAGE"
+      },
+      "productDetails": {
+        "nagaBalmOriginal": {
+          "name": "NAGA BALM ORIGINAL",
+          "description": "The PAIN RELIEF POWERHOUSE. Well-rounded pain relief, your go-to balm for the daily aches and pains of life. Pain relief from headaches, muscle pain, joint pain, bug-bites.",
+          "weight": "6g/20g"
+        },
+        "nagaBalmIce": {
+          "name": "NAGA BALM ICE",
+          "description": "NATURALLY COOL. Provides soothing relief through the cooling power of arnica, menthol and eucalyptus. Temporary relief from joint pain, sore muscles, chest and nasal congestion. Good to apply on sensitive areas such as the chest and stomach.",
+          "weight": "20g"
+        },
+        "nagaBalmFire": {
+          "name": "NAGA BALM FIRE",
+          "description": "NATURALLY FIERY. Delivers deeper heat for deeper relief of muscle aches and fatigues, pulled muscles, stiff and chronic joint or nerve pain. Smooth but long-lasting!",
+          "weight": "6g/20g"
+        },
+        "nagaBalmGo": {
+          "name": "NAGA BALM GO",
+          "description": "NATURALLY ENERGIZING. Delivers relief with fast cooling and warming sensations. Like aspirin for your skin, it numbs the pain before delivering penetrating heat to the affected area. With Oil of Wintergreen, there is also a familiar herbal mintiness to help with nausea, dizziness, and hangover.",
+          "weight": "6g/20g",
+          "label": "ACTIVE LIFESTYLE"
+        },
+        "nagaBalmEnergizingLiniment": {
+          "name": "NAGA BALM ENERGIZING LINIMENT OIL",
+          "description": "LATHER, MASSAGE, GO. The coconut oil liniment version of the Naga Balm Go. Great for muscle and joint activation and warming up. Massage the heat in.",
+          "weight": "65mL/125mL"
+        },
+        "extremeLinimentOil": {
+          "name": "EXTREME LINIMENT OIL",
+          "description": "EXTREME RECOVERY. The ultimate heat provider - the Extreme Liniment Oil lives up to its name, delivering maximum, penetrating warmth for the more persistent chronic muscle and joint pain. A perfect companion for any recovery and injury rehabilitation process.",
+          "weight": "65mL/125mL"
+        },
+        "painReliefSpray": {
+          "name": "ENERGIZING PAIN RELIEF SPRAY",
+          "description": "SPRAY. RUB. GO. Fast-acting relief to keep you moving. This spray is formulated to deliver an instant cooling sensation while promoting circulation for faster recovery. The ethanol-based formula absorbs quickly, providing immediate relief without greasy residue.",
+          "weight": "120mL"
+        },
+        "inhalerRollOn": {
+          "name": "NAGA BALM INHALER & ROLL-ON",
+          "description": "TWO-IN-ONE RELIEF. A two-in-one touch-free pain relief solution to take on the go. Inhaler: Relief from nausea, congestion, headaches & stress. Roll-On: Our Energizing Liniment Oil in a mini format - for those small touchpoints like nerve ends and temples.",
+          "weight": "2mL",
+          "badge": "NEW"
+        },
+        "mosquitoRepellent": {
+          "name": "NAGA BALM PICARIDIN MOSQUITO REPELLENT",
+          "description": "EMBRACE LIFE, REPEL MOSQUITOES. Cambodia's first Picaridin Mosquito Repellent - an effective, DEET-free solution for the family. Because like it or not, mosquitoes are a pain.",
+          "weight": "60mL/120mL"
+        },
+        "medicatedOil": {
+          "name": "NAGA BALM MEDICATED OIL",
+          "description": "The Naga Balm Medicated Oil is formulated to effectively relieve nausea, headaches, dizziness, congestion, stomachaches, and small aches and pains. Inhale, rub on your forehead or on sensitive areas.",
+          "weight": "3mL/30mL"
+        },
+        "linimentRollOn": {
+          "name": "NAGA BALM LINIMENT ROLL-ON",
+          "description": "ROLL N' GO. The energizing liniment oil in roll-on format. Designed for easy, targeted application.",
+          "weight": "50mL"
+        }
+      }
+    },
+    "fireBalm": {
+      "name": "Fire Balm",
+      "description": "Warming relief for muscle aches and joint pain",
+      "benefits": "• Deep heat therapy\n• Muscle relaxation\n• Joint pain relief"
+    },
+    "iceBalm": {
+      "name": "Ice Balm",
+      "description": "Cooling comfort for inflammation and swelling",
+      "benefits": "• Anti-inflammatory\n• Cooling sensation\n• Rapid relief"
+    },
+    "about": "ABOUT",
+    "shopNow": "Shop Now"
+  },
+  "faq": {
+    "hero": {
+      "title": "ANY QUESTIONS?",
+      "subtitle": "We got you.",
+      "description": "Find answers to commonly asked questions about Naga Balm. Can't find what you're looking for? Feel free to ",
+      "contactUs": "contact us"
+    },
+    "questions": [
+      {
+        "question": "1. What is Naga Balm?",
+        "answer": "Naga Balm is a brand of premium, petroleum-free topical pain relief solutions. Explore our products at ",
+        "linkText": "our products page"
+      },
+      {
+        "question": "2 .How does Naga Balm Work?",
+        "answer": "Through a powerful blend of herbal ingredients, Naga Balm products work to provide pain relief to targeted muscles, joints, through three key bio-mechanisms:\n\n1. Overriding pain signals by activating cooling and warming receptors on the skin;\n2. Reducing inflammation, swelling, and stiffness in affected tissues;\n3. Stimulating blood circulation and promoting recovery by increasing oxygen and nutrient delivery to affected areas\n\nWhether in balm, oil or spray format, Naga Balm products deliver the same relief."
+      },
+      {
+        "question": "3. How Do I Use Naga Balm?",
+        "answer": "Depending on the format and product, Naga Balm can be applied in a number of ways. Firstly, please read the packaging instructions. Apply liberally onto the affected area as needed.\n\nIf using the Inhaler, insert the Inhaler into each nostril and take a light inhale."
+      },
+      {
+        "question": "4. Who Can Benefit from Naga Balm?",
+        "answer": "Naga Balm is designed for anyone who needs fast, effective relief from pain, tension, and everyday discomfort without compromise to health. Whether you're active, dealing with chronic pain, or simply looking for natural relief, Naga Balm® has a solution for you."
+      },
+      {
+        "question": "5. How often can Naga Balm be used?",
+        "answer": "Naga Balm can be applied 3-4 times daily, unless instructed otherwise by a healthcare professional."
+      },
+      {
+        "question": "6. Has Naga Balm Been Clinically Tested and Is It Considered A Valid Medical Treatment?",
+        "answer": "All Naga Balm products are independently and rigorously lab-tested to ensure conformity with stated ingredients and to ensure that there are no microbiological contaminants.\n\nNaga Balm is designed as a complementary, non-invasive support for an active and pain-free lifestyle. Formulated with herbal ingredients that have been tried, tested, and trusted for generations, it provides natural relief that has stood the test of time. While on its own cannot be considered a medical treatment, it can be used alongside other wellness practices to help manage everyday discomfort, especially as a frontline first-to-act tool.\n\nIf you have specific medical concerns, we recommend consulting a healthcare professional before use."
+      },
+      {
+        "question": "7. Can Children Use Naga Balm?",
+        "answer": "Most Naga Balm products are advised for children aged 12 and older.\nThe Naga Balm Original can be used for children aged 6 and older.\nThe Naga Balm 20% Picaridin Mosquito Repellent can be used on children 6 months (yes, months!) and older."
+      },
+      {
+        "question": "8. Is Naga Balm Suitable for Sensitive Skin or Pregnancy?",
+        "answer": "Naga Balm is formulated with herbal, petroleum-free ingredients and is generally gentle on the skin. The base oil is coconut oil, which also provides deep hydration and quick absorption. However, if you have sensitive skin, we recommend performing a patch test before full application, as some essential oils may react adversely. Should any irritation occur, please discontinue use and consult a healthcare professional.\n\nIf pregnant or breastfeeding, ask a health professional before use."
+      },
+      {
+        "question": "9. Can I Use Naga Balm During Physical Activities?",
+        "answer": "Absolutely. Whether you're preparing for a workout, needing a touch up, or recovering afterward, Naga Balm can help activate the body, reduce muscle tension and speed up recovery, keeping you ready for whatever your day brings."
+      },
+      {
+        "question": "10. How Should I Store Naga Balm?",
+        "answer": "To maintain its quality, store Naga Balm® in a cool, dry place away from direct sunlight under 30°C (86°F). Always keep products out of reach of children."
+      },
+      {
+        "question": "11. Are There Any Side Effects?",
+        "answer": "Naga Balm products are generally well-tolerated. However, individual reactions may vary. If you experience any irritation or discomfort, please stop using the product and consult a healthcare professional."
+      },
+      {
+        "question": "12. Does Naga Balm contain any NSAIDs?",
+        "answer": "No, Naga Balm does not contain any Non-Steroidal Anti-Inflammatory Drugs (NSAIDs). Instead, we opt for an all-herbal formulation."
+      },
+      {
+        "question": "13. Where Can I Purchase Naga Balm?",
+        "answer": "If you're in Cambodia, you can order Naga Balm directly from our Telegram, or you can purchase at one of our retail partner locations. For our international inquiries, we're working hard to make products available near you!"
+      },
+      {
+        "question": "14. Is Naga Balm available for B2B Partnerships for Distribution and Wholesale?",
+        "answer": "If you're interested in distribution or wholesale opportunities, please ",
+        "linkText": "send us a message",
+        "linkSuffix": " - we would love to talk."
+      }
+    ],
+    "discoverSolution": {
+      "title": "DISCOVER THE PERFECT\nSOLUTION FOR YOUR NEEDS.",
+      "activeLifestyles": {
+        "title": "FOR ACTIVE LIFESTYLES",
+        "subtitle": "Push harder. Recover faster. Stay in motion.",
+        "description": "Whether you're an athlete or just\nalways on the move, find relief that\n keeps up.",
+        "viewProducts": "VIEW PRODUCTS"
+      },
+      "everydayRelief": {
+        "title": "FOR EVERYDAY RELIEF",
+        "subtitle": "Soothe tension. Ease the day.\nFeel good again.",
+        "description": "From desk strain to daily\ndiscomfort, choose relief made\n for life's routines.",
+        "viewProducts": "VIEW PRODUCTS"
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "HOW TO REACH\nOUT TO US?"
+    },
+    "form": {
+      "title": "SEND US A MESSAGE",
+      "subtitle": "We'd love to hear from you. Send us your questions or feedback.",
+      "fields": {
+        "fullName": "Full Name",
+        "email": "Email",
+        "phone": "Phone",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "button": "SEND"
+    },
+    "info": {
+      "title": "HOW TO REACH US",
+      "subtitle": "Get in touch with us through any of these channels",
+      "address": {
+        "title": "ADDRESS",
+        "text": "Coco Khmer Co., Ltd. #1529, NR. 2, Chakangre Krom Khan Mean Chey, Phnom Penh Cambodia"
+      },
+      "email": {
+        "title": "EMAIL"
+      },
+      "phone": {
+        "title": "PHONE"
+      },
+      "businessHours": {
+        "title": "BUSINESS HOURS",
+        "weekdays": "Monday - Friday:\n8:00 AM - 5:00 PM",
+        "weekends": "Saturday - Sunday:\nClosed"
+      },
+      "followUs": "FOLLOW US"
+    },
+    "visit": {
+      "title": "ADDRESS",
+      "address": "Coco Khmer Co., Ltd.\n#1529, NR. 2, Chakangre Krom\nKhan Mean Chey, Phnom Penh, Cambodia"
+    },
+    "discoverSolution": {
+      "title": "DISCOVER THE PERFECT\nSOLUTION FOR YOUR NEEDS.",
+      "activeLifestyles": {
+        "title": "FOR ACTIVE LIFESTYLES",
+        "subtitle": "Push harder. Recover faster. Stay in motion.",
+        "description": "Whether you're an athlete or just always on\nthe move, find relief that keeps up.",
+        "button": "VIEW PRODUCTS"
+      },
+      "everydayRelief": {
+        "title": "FOR EVERYDAY RELIEF",
+        "subtitle": "Soothe tension. Ease the day. Feel good again.",
+        "description": "From desk strain to daily discomfort, choose relief\n ..made for life's routines.",
+        "button": "VIEW PRODUCTS"
+      }
+    }
+  },
+  "whereToFind": {
+    "hero": {
+      "title": "WHERE TO FIND US",
+      "description": "Discover where you can get your Naga Balm."
+    },
+    "locations": {
+      "categories": {
+        "marts": "MARTS",
+        "pharmacy": "PHARMACY",
+        "clubsFitness": "CLUBS & FITNESS",
+        "specialtyStores": "SPECIALTY STORES"
+      }
+    }
+  },
+  "footer": {
+    "description": "Naga Balm - we blend tradition with modern innovation, delivering clean pain relief solutions to soothe, relieve, and heal.",
+    "madeInCambodia": "MADE IN CAMBODIA",
+    "company": "COMPANY",
+    "products": "PRODUCTS",
+    "home": "HOME",
+    "about": "ABOUT",
+    "faq": "FAQ",
+    "ingredients": "INGREDIENTS",
+    "contact": "CONTACT",
+    "findUsAt": "WHERE TO FIND",
+    "contactUs": "CONTACT US",
+    "email": "EMAIL",
+    "phone": "PHONE",
+    "followUs": "FOLLOW US",
+    "visitUs": "VISIT US",
+    "address": "Coco Khmer Co., Ltd.\n#1529, NR. 2, Chakangre Krom\nKhan Mean Chey, Phnom Penh\nCambodia",
+    "copyright": "© 2025 NAGA BALM®. ALL RIGHTS RESERVED."
+    
+  },
+  "metadata": {
+    "title": "Naga Balm | Ancient Khmer Healing Traditions",
+    "description": "Ancient Khmer healing traditions meet modern innovation. Premium balms handcrafted in Cambodia, bringing traditional wellness to the modern world.",
+    "keywords": "Naga Balm, Khmer healing, traditional medicine, Cambodia, natural remedies, pain relief, wellness"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again"
+  }
+}
