@@ -2,17 +2,19 @@
   "name": "nextjs",
   "version": "0.1.0",
   "private": true,
- "scripts": {
-  "dev": "next dev --turbopack",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "db:generate": "prisma generate",
-  "db:seed": "tsx prisma/seed.ts",
-  "db:studio": "prisma studio",
-  "postinstall": "prisma generate"
-}
- {
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "prisma generate",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:studio": "prisma studio",
+    "postinstall": "prisma generate"
+  },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@prisma/client": "6.14.0",
